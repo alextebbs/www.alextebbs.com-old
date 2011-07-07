@@ -1,0 +1,56 @@
+﻿:head
+
+	<link rel="stylesheet" href="@root_path/public/css/scroll.css" media="all" />
+ 	
+<!--     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js">
+    </script> -->
+    <script>!window.jQuery && document.write(unescape('%3Cscript src="@root_path/public/js/jquery-1.4.2.min.js"%3E%3C/script%3E'))</script>
+	
+	<script src="@root_path/public/js/proj.js"></script>
+	<script src="@root_path/public/js/modernizr.js"></script>
+	<script src="@root_path/public/js/tips.js"></script>
+
+	<!-- ADD GOOGLE WEBMASTER / ANALYTICS -->
+	
+	
+	
+</head>
+
+<body>
+<div id="frontpage">
+
+:tips
+
+<div id="card">
+
+:navandsimples
+
+	<section id="develop" class="simple">
+	<p>Web design and development has been a passion of mine for over 2 years. I specialize in front-end development, CSS3, HMTL5, and jQuery / Javascript, but I love to learn new skillsets. I like to make websites do tricks. I prefer clean, simple designs that take advantage of new and exciting technology (CSS3 / HTML5). SEO (Seach Engine Optimization) is also a proficiency of mine. In addition to website design, if your project is the right size, I can offer to host it for you at a low price. </p>
+	</section>
+	
+</div>
+</div>
+
+<section id="proj">
+<div class="title">
+@title
+
+:next-page
+
+</div>
+@content
+
+foreach $images do
+	<img src="@url" />
+endforeach
+
+
+</section>
+
+
+<script type="text/javascript">
+</script>
+
+</body>
+</html>

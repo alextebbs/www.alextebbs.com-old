@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+	<head>
+	
+	<meta charset="utf-8" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	
+	
+	<title>Alex Tebbs | Web Development | Graphic Design</title>
+	
+	<meta name="author" content="Alex Tebbs" />
+	<meta name="DC.creator" content="Alex Tebbs" />
+	<meta name="Copyright" content="Copyright Alex Tebbs 2010. All Rights Reserved." />
+	
+	<meta name="description" content="Hi, I'm Alex Tebbs, I'm a freelance web designer/developer based out of Spokane WA. This site contains my portfolio, contact info, and blog." />
+	<meta name="DC.title" content="Alex Tebbs Graphic Design / Web Development Spokane" />
+	<meta name="DC.subject" content="Graphic Design / Web Development Spokane" />
+	
+	<!-- FAVICON AND APPLE TOUCH / ANDROID ICON
+	<link rel="shortcut icon" href="./public/favicon.png"/>
+	<link rel="apple-touch-icon" href="./public/apple-touch-icon.png">
+	<link rel="image_src" href="" /> <<< THIS ONE IS USED BY FACEBOOK, ETC WHEN YOUR SITE IS SHARED
+	-->
+	
+	<link rel="stylesheet" href="./public/css/main.css" media="all" />
+	
+	
+ 	
+
+
+	<link rel="stylesheet" href="./public/css/scroll.css" media="all" />
+ 	
+<!--     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js">
+    </script> -->
+    <script>!window.jQuery && document.write(unescape('%3Cscript src="./public/js/jquery-1.4.2.min.js"%3E%3C/script%3E'))</script>
+	
+	<script src="./public/js/proj.js"></script>
+	<script src="./public/js/modernizr.js"></script>
+	<script src="./public/js/tips.js"></script>
+
+	<!-- ADD GOOGLE WEBMASTER / ANALYTICS -->
+	
+	
+	
+</head>
+
+<body>
+<div id="frontpage">
+
+<ul id="tips">
+	<li class="0 select">Hi, my name is:</li>
+	<li class="1">The man behind the myth.</li>
+	<li class="2">Sometimes I blog here.</li>
+	<li class="3">Design and development.</li>
+	<li class="4">Where to <s> stalk</s> find me.</li>
+	<li class="5">Front-end Web Developer:</li>
+	<li class="6">Graphic Designer:</li>
+	<li class="7">Very qualified, I'm sure.</li>	
+	
+</ul>
+
+
+<div id="card">
+
+	<header id="at">
+		<a href="#" id="home">
+			<script type="text/javascript" charset="utf-8"> 
+			$(document).ready(function(){
+				showImage();
+			});	
+			</script>
+		</a>
+	</header>
+	
+	﻿    <nav>
+        <ul>
+            <li><a href="#" class="about" 
+                onMouseOver="swap('.1');"
+                onMouseOut="wipe('.1');">ABOUT ME</a></li>
+            <li><a href="http://blog.alextebbs.com" 
+                onMouseOver="swap('.2');"
+                onMouseOut="wipe('.2');">MY BLOG</a></li>
+            <li><a href="#" class="portfolio" 
+                onMouseOver="swap('.3');"
+                onMouseOut="wipe('.3');">MY WORK</a></li>
+            <li><a href="#" class='contact'
+                onMouseOver="swap('.4');"
+                onMouseOut="wipe('.4');">CONTACT ME</a></li>
+        </ul>
+
+        <ul id="two">
+            <li><a href="./?/development/jsneva/" class="webdesign"
+                onMouseOver="swap('.5');"
+                onMouseOut="wipe('.5');">WEB DEVELOPMENT</a></li>
+            <li><a href="./?/design/print/" class="graphicdesign"
+                onMouseOver="swap('.6');"
+                onMouseOut="wipe('.6');">GRAPHIC DESIGN</a></li>
+            <li><a href="./?/resume/" class="resume" 
+                onMouseOver="swap('.7');"
+                onMouseOut="wipe('.7');">RESUME</a></li>
+        </ul>
+    </nav>
+	
+
+
+	<section id="about"  class="simple">
+    <p> I'm Alex. I'm a young graphic designer who is going to take over the world. You can help me out by hiring me but that does not guarantee your safety or freedom when I am king.</p>
+	
+	<p>Thankfully for you, domination is on the backburner while I excercise my passion for design and development.  Please take the time to check out my portfolio, read my resume, and peruse the blog. I prefer to show, not tell.</p>
+	
+	<img src="./public/img/itsame.jpg" />
+	
+    </section>
+	
+	<section id="contact"  class="simple">
+    <p>Feel free to email me at <a href="mailto:alex@alextebbs.com">alex@alextebbs.com</a> for any reason at all. If you're feeling a little more intimate, you can leave me a voicemail simply by dialing 360.818.4000. If you're looking to follow me on Twitter or something like that, I'm honored but I am actually <i>too hip</i> for Twitter. If you want to stay up to date with me, check out my <a href="http://blog.alextebbs.com">blog</a>.</p>
+    </section>
+
+	<section id="develop" class="simple">
+	<p>Web design and development has been a passion of mine for over 2 years. I specialize in front-end development, CSS3, HMTL5, and jQuery / Javascript, but I love to learn new skillsets. I like to make websites do tricks. I prefer clean, simple designs that take advantage of new and exciting technology (CSS3 / HTML5). SEO (Seach Engine Optimization) is also a proficiency of mine. In addition to website design, if your project is the right size, I can offer to host it for you at a low price. </p>
+	</section>
+	
+</div>
+</div>
+
+<section id="proj">
+<div class="title">
+<h2><a href="http://www.jsneva.com/">www.jsneva.com</a></h2>
+
+
+
+  <a class="proj prev" href="./?/development/northnitch/"></a>
+
+
+  <a class="proj next" href="./?/development/dwmiller/"></a>
+
+
+</div>
+<p>This portfolio site, built for Jenessa Sneva, features a clean, minimalist layout which follows a beautiful grid, implemented with Blueprint.css. The site is elegant in simplicity and obvious in function.</p>
+
+
+	<img src="./content/5.development/3.jsneva/screen.png" />
+
+
+
+</section>
+
+
+<script type="text/javascript">
+</script>
+
+</body>
+</html>
+<!-- Stacey(2.2.2): 1b527b8d3668b99ee13693df10d920c1 -->

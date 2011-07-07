@@ -1,0 +1,7 @@
+﻿date: 2011, Jan
+-
+content: 
+This portfolio site, built for Jenessa Sneva, features a clean, minimalist layout which follows a beautiful grid, implemented with Blueprint.css. The site is elegant in simplicity and obvious in function.
+-
+title: 
+## [jsneva.com](http://www.jsneva.com/)

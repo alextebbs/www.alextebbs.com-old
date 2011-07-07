@@ -1,0 +1,8 @@
+﻿title: 
+## [northNitch.com](http://www.northnitch.com/)
+-
+date: 2009, Jun–
+
+-
+content: 
+Northnitch studios is a software company located just north of Spokane, Washington. The site I designed features a dark, pleasing color scheme, HMTL5 standards compliant semantics, and a <canvas\> based animation. 

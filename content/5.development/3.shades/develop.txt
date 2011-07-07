@@ -1,0 +1,7 @@
+﻿date: 2011, Jan
+-
+content: 
+Shades is a Tumblr theme I created for the blog portion of this site. I'm a huge Tumblr fan and I have a lot of experience creating custom themes. While Tumblr isn't particularily powerful, it's simplicity makes it a great way to start blogging and the social features make it easy to get your blog recognized. 
+-
+title: 
+## [Shades](http://shadestheme.tumblr.com/)

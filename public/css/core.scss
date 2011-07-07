@@ -1,0 +1,487 @@
+﻿/* SASS MIXINS 
+///////////////////////////////////////////////////////////////////*/
+
+@mixin rounded($side: all, $radius: 8px) {
+    @if $side == all {
+        -webkit-border-radius: $radius;
+        -moz-border-radius: $radius;
+        border-radius: $radius;
+    }
+    @else {
+        -webkit-border-#{$side}-radius: $radius;
+        -moz-border-radius-#{$side}: $radius;
+        border-#{$side}-radius: $radius;
+    }
+}
+
+@mixin transition($property: all, $time: 1s, $type: ease-in-out) {
+	-webkit-transition: $property $time $type;
+	-moz-transition: $property $time $type;
+}	
+
+/* SASS COLORS AND VARIABLES 
+///////////////////////////////////////////////////////////////////*/
+
+$maincolor: rgb( 30, 30, 30);
+$headerfont: 'BebasNeueRegular', sans-serif;
+
+/*  HERE IS WHERE YOU WRITE NEW STYLES DELETE THESE AND ADD YOUR OWN
+///////////////////////////////////////////////////////////////////*/
+
+html {
+height: 100%;
+width: 100%;
+background-color: transparent;
+overflow-y: none;
+}
+
+body  {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 20px;
+-webkit-font-smoothing: subpixel-antialiased;
+background: $maincolor;
+background-attachment: fixed;
+height: 100%;
+width: 100%;
+}
+
+a img {
+border: none;
+}
+
+a {
+outline: none;
+}
+
+#spacer {
+height: 200px;
+display: block;
+width: 100%;
+}
+
+header {
+text-align: center;
+letter-spacing: -1px;
+margin-bottom: 0px;
+}
+
+#frontpage {
+width: 450px;
+margin: 5px auto 0 auto;
+}
+
+
+ul#tips {
+display: block;
+position:relative;
+height: 30px;
+width: 450px;
+margin: 30px auto 0 auto;
+}
+
+ul#tips li {
+text-align: left;
+font-family: $headerfont;
+font-size: 40px;
+color: $maincolor + #666;
+text-shadow: rgba(0,0,0,.9) -1px -1px 0px;
+position:absolute;
+top:0;
+left:-1477px;
+letter-spacing: 0px;
+list-style-type: none;
+display: none;
+}
+
+ul#tips li.select {
+display: inline-block;
+z-index: 9999;
+}
+
+
+#frontpage nav {
+text-align: left;
+margin-bottom: 40px;
+width: 450px;
+margin: 0px auto;
+border-top: 2px solid $maincolor - #111;
+padding-top: 10px;
+}
+
+.ie6 #frontpage nav, .ie7 #frontpage nav {
+position: relative;
+top: 0px;
+}
+
+#frontpage nav ul {
+width: 98%;
+margin: 0px auto;
+position: relative;
+left: 5px;
+}
+
+#frontpage nav ul li {
+display: inline;
+padding: 0px 3px;
+}
+
+#frontpage nav ul li a {
+font-family: $headerfont;
+font-size: 30px;
+color: $maincolor - #111;
+@include transition(all, .2s);
+padding: 0px 14px 0px 0px;
+text-shadow: rgba(0,0,0,.7) 0px 0px 1px;
+padding: 0px 3px;
+}
+
+#frontpage nav ul#two {
+position: relative;
+left: 5px;
+}
+
+#frontpage nav ul#two li a {
+font-size: 29px;
+
+}
+
+#frontpage nav ul li a:hover {
+text-shadow: 0px 0px 5px #000;
+color: $maincolor + #ddd;
+@include transition(all, .2s);
+}
+
+#frontpage nav ul li a.selected {
+color: $maincolor + #aaa;
+}
+
+.simple p{
+font-size: 16px;
+color: $maincolor + #555;
+text-shadow: #000 0px 0px 3px;
+font-family: sans-serif;
+line-height: 140%;
+text-align: justify;
+width: 415px;
+margin: 20px auto;
+}
+
+.simple p a {
+color: $maincolor + #999;
+@include transition(all, .2s);
+}
+
+.simple p a:hover {
+color: $maincolor + #fff;
+@include transition(all, .2s);
+}
+
+.simple img {
+-webkit-box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+border: 20px solid #0d0d0d;
+width: 385px;
+}
+
+.simple ul {
+width: 415px;
+margin: 0px auto;
+}
+
+.simple ul li {
+display: block;
+font-family: $headerfont;
+font-size: 35px;
+color: $maincolor - #111;
+text-shadow: rgba(0,0,0,.7) 0px 0px 1px;
+text-transform: uppercase;
+letter-spacing: 0px;
+font-weight: 400;
+margin: 0px 0px;
+text-align: justify;
+}
+
+.simple ul li a {
+@include transition(all, .2s);
+}
+
+.simple ul li a:hover {
+@include transition(all, .2s);
+color: $maincolor + #fff;
+}
+
+#topfade {
+position: fixed;
+top: 0px;
+left: 0px;
+background: url('../img/topfade2.png') 50% 0 no-repeat;
+z-index: 999;
+height: 144px;
+width: 100%;
+}
+
+#bottomfade {
+position: fixed;
+bottom: 0px;
+left: 0px;
+background: url('../img/bottomfade.png') 50% 0 no-repeat;
+z-index: 998;
+height: 144px;
+width: 100%;
+}
+
+/* PORTFOLIO */
+
+section#proj {
+width: 500px;
+margin: 0px auto;
+position:relative;
+}
+
+div.title {
+display: block;
+width: 415px;
+height: 46px;
+margin: 20px auto;
+}
+
+section#proj a.proj, section#resume a.resume {
+height: 50px;
+width: 70px;
+}
+
+section#proj a.next {
+background: transparent url('../img/arr.png') 0px -2px no-repeat;
+float: right;
+display: inline-block;
+}
+
+section#proj a.next:hover {
+background: transparent url('../img/arr.png') 0px -72px no-repeat;
+}
+
+a.top {
+float: left;
+display: inline-block;
+background: transparent url('../img/arr.png') 0px -281px no-repeat;
+}
+
+a.top:hover {
+background: transparent url('../img/arr.png') 0px -350px no-repeat;
+}
+
+
+section#proj h2 {
+display: inline-block;
+font-family: $headerfont;
+font-size: 46px;
+color: $maincolor - #111;
+text-shadow: rgba(0,0,0,.7) 0px 0px 1px;
+text-transform: uppercase;
+letter-spacing: 0px;
+font-weight: 400;
+float: left;
+}
+
+section#proj h2 a {
+font-family: $headerfont;
+font-size: 46px;
+color: $maincolor - #111;
+@include transition(all, .2s);
+text-shadow: rgba(0,0,0,.7) 0px 0px 1px;
+text-transform: uppercase;
+letter-spacing: 0px;
+font-weight: 400;
+display: inline-block;
+
+}
+
+section#proj h2 a:hover {
+color: $maincolor + #ccc;
+text-shadow: -2px -2px 0px #000;
+}
+
+section#proj img {
+width: 500px;
+margin-bottom: 20px;
+-webkit-box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+border: 7px solid #0d0d0d;
+}
+
+section#proj.print img {
+width: 450px;
+margin-bottom: 60px;
+border: 20px solid #0d0d0d;
+}
+
+section#proj p {
+margin: 0px auto 20px auto;
+width: 410px;
+border-bottom: 2px solid #0d0d0d;
+padding: 0px 27px 15px 27px;
+font-size: 17px;
+color: $maincolor + #555;
+text-decoration: none;
+text-shadow: #000 0px 0px 3px;
+font-family: sans-serif;
+line-height: 140%;
+text-align: justify;
+}
+
+section#proj.print p {
+padding: 0px 15px 15px 15px;
+border-bottom: 2px solid #0d0d0d;
+border-top: none;
+margin-bottom: 20px;
+}
+
+section#proj p a {
+@include transition(all, .2s);
+text-shadow: rgba(0,0,0,.7) 0px 0px 4px;
+font-family: sans-serif;
+font-weight: bold;
+display: block;
+color: $maincolor + #666;
+text-align: center;
+margin-top: 10px;
+letter-spacing: -1px;
+}
+
+section#proj p a:hover {
+@include transition(all, .2s);
+color: $maincolor + #fff;
+}
+
+section#proj footer {
+position: relative;
+bottom: 30px;
+height: 150px;
+width: 415px;
+margin: 0px auto;
+z-index: 99999999;
+}
+
+/* RESUME STYLES
+/////////////////////////////////////////////////////////////////////*/
+
+section#resume {
+width: 420px;
+margin: 30px auto 0px auto;
+position:relative;
+}
+
+section#resume h1 {
+display: block;
+font-family: $headerfont;
+font-size: 46px;
+color: $maincolor - #111;
+text-shadow: rgba(0,0,0,.7) 0px 0px 1px;
+text-transform: uppercase;
+letter-spacing: 0px;
+font-weight: 400;
+margin: 20px 0px;
+text-align: justify;
+}
+
+section#resume h2 {
+display: block;
+font-family: $headerfont;
+font-size: 33px;
+color: $maincolor - #111;
+text-shadow: rgba(0,0,0,.7) 0px 0px 1px;
+text-transform: uppercase;
+letter-spacing: 0px;
+font-weight: 400;
+margin: 15px 0px;
+text-align: justify;
+}
+
+section#resume h2 a {
+font-family: $headerfont;
+font-size: 46px;
+color: $maincolor - #111;
+@include transition(all, .2s);
+text-shadow: rgba(0,0,0,.7) 0px 0px 1px;
+text-transform: uppercase;
+letter-spacing: 0px;
+font-weight: 400;
+text-align: center;
+}
+
+section#resume h2 a:hover {
+color: $maincolor + #ccc;
+text-shadow: -2px -2px 0px #000;
+}
+
+section#resume h3 {
+display: block;
+font-family: $headerfont;
+font-size: 20px;
+color: $maincolor - #111;
+text-shadow: rgba(0,0,0,.7) 0px 0px 1px;
+text-transform: uppercase;
+letter-spacing: 0px;
+font-weight: 400;
+margin: 0px 0px;
+text-align: justify;
+}
+
+section#resume p {
+margin: 0px auto 20px auto;
+padding: 3px 7px;
+font-size: 15px;
+color: $maincolor + #555;
+text-decoration: none;
+text-shadow: #000 0px 0px 3px;
+font-family: sans-serif;
+line-height: 140%;
+text-align: justify;
+}
+
+section#resume ul {
+margin-left: 20px;
+}
+
+section#resume li {
+font-size: 15px;
+color: $maincolor + #555;
+text-decoration: none;
+text-shadow: #000 0px 0px 3px;
+font-family: sans-serif;
+text-align: justify;
+padding: 4px 0px;
+line-height: 140%;
+
+}
+
+section#resume h2#emailme {
+margin-bottom: 50px;
+margin: 0px auto;
+text-align: right;
+float: left;
+display: inline-block;
+}
+
+a.resume.top {
+float: right;
+position: relative;
+left: 20px;
+}
+
+section#resume footer {
+position: relative;
+height: 150px;
+width: 415px;
+margin: 0px auto;
+z-index: 99999999;
+}
+
+/*  OPTIONAL VANITY STYLES!
+/////////////////////////////////////////////////////////////////////*/
+
+::selection {background: $maincolor - #aaa;}
+::-moz-selection {background: $maincolor - #aaa;}
+img::selection {background: transparent;}
+img::-moz-selection {background: transparent;}

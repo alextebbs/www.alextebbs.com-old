@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+	<head>
+	
+	<meta charset="utf-8" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	
+	
+	<title>Alex Tebbs | Web Development | Graphic Design</title>
+	
+	<meta name="author" content="Alex Tebbs" />
+	<meta name="DC.creator" content="Alex Tebbs" />
+	<meta name="Copyright" content="Copyright Alex Tebbs 2010. All Rights Reserved." />
+	
+	<meta name="description" content="Hi, I'm Alex Tebbs, I'm a freelance web designer/developer based out of Spokane WA. This site contains my portfolio, contact info, and blog." />
+	<meta name="DC.title" content="Alex Tebbs Graphic Design / Web Development Spokane" />
+	<meta name="DC.subject" content="Graphic Design / Web Development Spokane" />
+	
+	<!-- FAVICON AND APPLE TOUCH / ANDROID ICON
+	<link rel="shortcut icon" href="./public/favicon.png"/>
+	<link rel="apple-touch-icon" href="./public/apple-touch-icon.png">
+	<link rel="image_src" href="" /> <<< THIS ONE IS USED BY FACEBOOK, ETC WHEN YOUR SITE IS SHARED
+	-->
+	
+	<link rel="stylesheet" href="./public/css/main.css" media="all" />
+	
+	
+ 	
+
+  <body>
+    <div id="container">
+      <h1 class="col three">
+        <a href="./">Alex Tebbs</a>
+        <strong>Web Designer / Developer</strong>
+      </h1>
+      <em class="col three"><p>alex@alextebbs.com</p>
+</em>
+      <hr>
+      ﻿    <nav>
+        <ul>
+            <li><a href="#" class="about" 
+                onMouseOver="swap('.1');"
+                onMouseOut="wipe('.1');">ABOUT ME</a></li>
+            <li><a href="http://blog.alextebbs.com" 
+                onMouseOver="swap('.2');"
+                onMouseOut="wipe('.2');">MY BLOG</a></li>
+            <li><a href="#" class="portfolio" 
+                onMouseOver="swap('.3');"
+                onMouseOut="wipe('.3');">MY WORK</a></li>
+            <li><a href="#" class='contact'
+                onMouseOver="swap('.4');"
+                onMouseOut="wipe('.4');">CONTACT ME</a></li>
+        </ul>
+
+        <ul id="two">
+            <li><a href="./?/development/jsneva/" class="webdesign"
+                onMouseOver="swap('.5');"
+                onMouseOut="wipe('.5');">WEB DEVELOPMENT</a></li>
+            <li><a href="./?/design/print/" class="graphicdesign"
+                onMouseOver="swap('.6');"
+                onMouseOut="wipe('.6');">GRAPHIC DESIGN</a></li>
+            <li><a href="./?/resume/" class="resume" 
+                onMouseOver="swap('.7');"
+                onMouseOut="wipe('.7');">RESUME</a></li>
+        </ul>
+    </nav>
+	
+
+      <div id="content" class="col eight">
+        <p class="date col one">&para;</p>
+        <div class="description col six">
+          <h2 class="col six"><a href="./">Contact details</a></h2>
+          
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et mauris eu magna convallis cursus. Pellentesque a justo nisl. Duis vel velit at libero ultricies consectetur. Ut sem libero, ornare in ullamcorper eget, molestie sit amet tellus. Aenean auctor porttitor consectetur. Aliquam erat volutpat.</p>
+
+<p>I can be contacted at: <a href="&#109;&#x61;&#105;&#108;&#x74;&#111;&#x3a;&#x68;&#105;&#x40;y&#111;&#x75;&#114;&#100;&#x6f;&#109;&#x61;i&#110;&#x2e;&#99;&#111;&#x6d;">&#x68;&#105;&#x40;y&#111;&#x75;&#114;&#100;&#x6f;&#109;&#x61;i&#110;&#x2e;&#99;&#111;&#x6d;</a>.</p>
+
+          
+        </div>
+      </div>
+      <hr>
+      <p id="footer" class="col six">&copy; Copyright Alex Tebbs 2011 <a class="atom-rss" href="./?/feed/">RSS</a><br>
+        <em>Content managed by <a href="http://www.staceyapp.com">stacey</a></em></p>
+    </div>
+    <script src="./public/docs/js/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
+<!-- Stacey(2.2.2): f46364f9dfb79de2c30e0f37f85199b0 -->

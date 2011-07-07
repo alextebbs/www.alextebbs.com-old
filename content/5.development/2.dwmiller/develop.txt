@@ -1,0 +1,8 @@
+﻿title: 
+## [dwmiller.net](http://www.dwmiller.net/)
+-
+date: 2009, Jun–
+
+-
+content: 
+Visit the gallery page on this site and try re-sizing your browser window to see the gallery intelligently scale. Click on a picture to view the javascript lightbox effect. The site also features custom scrollbars which appear in the Chrome and Safari browsers.
