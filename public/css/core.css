@@ -158,6 +158,50 @@ ul#tips li.select {
   -moz-transition: all 0.2s ease-in-out;
   color: white; }
 
+/* CSS CARD STYLES */
+
+pre {
+    padding: 10px;
+	background: #000;
+	-webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	color: #fff;
+	margin: 0px 20px;
+	text-align: left;
+	font-size: 14px;
+	line-height: 120%;
+}
+
+pre a {
+	    color: #00FFFF;
+		text-decoration: underline;
+}
+
+pre .selector {
+	    color: #ffff00;
+}
+
+pre .bracket {
+	    color: #ff00ff;
+}
+
+pre .prop {
+	    color: #00ff00;
+}
+
+pre .val {
+	    color: #00ffff;   
+}
+
+pre .val a {
+	    text-decoration: underline;
+		    color: #00ffff;  
+}
+
+pre .val a:hover {
+	    color: #fff;
+}
+
+
 #topfade {
   position: fixed;
   top: 0px;
