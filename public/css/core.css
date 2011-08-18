@@ -1,3 +1,5 @@
+/* PAGE SETUP AND SOME DEFAULTS ------------------------------------------------ */
+
 html {
   height: 100%;
   width: 100%;
@@ -36,14 +38,16 @@ header {
   width: 450px;
   margin: 5px auto 0 auto; }
 
-ul#tips {
+/* TIPS ------------------------------------------------ */
+
+#tips {
   display: block;
   position: relative;
   height: 30px;
   width: 450px;
   margin: 30px auto 0 auto; }
 
-ul#tips li {
+#tips li {
   text-align: left;
   font-family: "BebasNeueRegular", sans-serif;
   font-size: 40px;
@@ -56,11 +60,13 @@ ul#tips li {
   list-style-type: none;
   display: none; }
 
-ul#tips li.select {
+#tips li.select {
   display: inline-block;
   z-index: 9999; }
 
-#frontpage nav {
+/* NAV ------------------------------------------------ */
+
+nav {
   text-align: left;
   margin-bottom: 40px;
   width: 450px;
@@ -68,21 +74,21 @@ ul#tips li.select {
   border-top: 2px solid #0d0d0d;
   padding-top: 10px; }
 
-.ie6 #frontpage nav, .ie7 #frontpage nav {
+.ie6 nav, .ie7 nav {
   position: relative;
   top: 0px; }
 
-#frontpage nav ul {
+nav ul {
   width: 98%;
   margin: 0px auto;
   position: relative;
   left: 5px; }
 
-#frontpage nav ul li {
+nav ul li {
   display: inline;
   padding: 0px 3px; }
 
-#frontpage nav ul li a {
+nav ul li a {
   font-family: "BebasNeueRegular", sans-serif;
   font-size: 30px;
   color: #0d0d0d;
@@ -92,21 +98,23 @@ ul#tips li.select {
   text-shadow: rgba(255, 255, 255, 0.1) 0px 0px 3px;
   padding: 0px 3px; }
 
-#frontpage nav ul#two {
+nav ul#two {
   position: relative;
   left: 5px; }
 
-#frontpage nav ul#two li a {
+nav ul#two li a {
   font-size: 29px; }
 
-#frontpage nav ul li a:hover {
+nav ul li a:hover {
   text-shadow: 0px 0px 5px #000;
   color: #fbfbfb;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out; }
 
-#frontpage nav ul li a.selected {
+nav ul li a.selected {
   color: #c8c8c8; }
+
+/* ABOUT ------------------------------------------------ */
 
 .simple p {
   font-size: 16px;
@@ -133,8 +141,7 @@ ul#tips li.select {
   border: 20px solid #0d0d0d;
   width: 385px; }
 
-
-/* CSS CARD STYLES */
+/* CONTACT ------------------------------------------------ */
 
 pre {
     padding: 10px;
@@ -148,28 +155,28 @@ pre {
 }
 
 pre a {
-	    color: #00FFFF;
-		text-decoration: underline;
+    color: #00FFFF;
+	text-decoration: underline;
 }
 
 pre .selector {
-	    color: #ffff00;
+    color: #ffff00;
 }
 
 pre .bracket {
-	    color: #ff00ff;
+    color: #ff00ff;
 }
 
 pre .prop {
-	    color: #00ff00;
+    color: #00ff00;
 }
 
 pre .val {
-	    color: #00ffff;   
+    color: #00ffff;   
 }
 
 pre .val a {
-	    text-decoration: underline;
+    text-decoration: underline;
 		    color: #00ffff;  
 }
 
@@ -177,8 +184,8 @@ pre .val a:hover {
 	    color: #fff;
 }
 
+/* PORTFOLIO  ------------------------------------------------ */
 
-/* PORTFOLIO */
 section#proj {
   width: 500px;
   margin: 0px auto;
@@ -190,16 +197,16 @@ div.title {
   height: 46px;
   margin: 20px auto; }
 
-section#proj a.proj, section#resume a.resume {
+#proj a.proj, section#resume a.resume {
   height: 50px;
   width: 70px; }
 
-section#proj a.next {
+#proj a.next {
   background: transparent url("../img/arr.png") 0px -2px no-repeat;
   float: right;
   display: inline-block; }
 
-section#proj a.next:hover {
+#proj a.next:hover {
   background: transparent url("../img/arr.png") 0px -72px no-repeat; }
 
 a.top {
@@ -210,7 +217,7 @@ a.top {
 a.top:hover {
   background: transparent url("../img/arr.png") 0px -350px no-repeat; }
 
-section#proj h2 {
+#proj h2 {
   display: inline-block;
   font-family: "BebasNeueRegular", sans-serif;
   font-size: 46px;
@@ -221,7 +228,7 @@ section#proj h2 {
   font-weight: 400;
   float: left; }
 
-section#proj h2 a {
+#proj h2 a {
   font-family: "BebasNeueRegular", sans-serif;
   font-size: 46px;
   color: #0d0d0d;
@@ -233,22 +240,22 @@ section#proj h2 a {
   font-weight: 400;
   display: inline-block; }
 
-section#proj h2 a:hover {
+#proj h2 a:hover {
   color: #fff;
   text-shadow: 0px 0px 5px black; }
 
-section#proj img {
+#proj img {
   width: 500px;
   margin-bottom: 20px;
   -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   border: 7px solid #0d0d0d; }
 
-section#proj.print img {
+#proj.print img {
   width: 450px;
   margin-bottom: 60px;
   border: 20px solid #0d0d0d; }
 
-section#proj p {
+#proj p {
   margin: 0px auto 20px auto;
   width: 410px;
   border-bottom: 2px solid #0d0d0d;
@@ -261,13 +268,13 @@ section#proj p {
   line-height: 140%;
   text-align: justify; }
 
-section#proj.print p {
+#proj.print p {
   padding: 0px 15px 15px 15px;
   border-bottom: 2px solid #0d0d0d;
   border-top: none;
   margin-bottom: 20px; }
 
-section#proj p a {
+#proj p a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   text-shadow: rgba(0, 0, 0, 0.7) 0px 0px 4px;
@@ -279,12 +286,12 @@ section#proj p a {
   margin-top: 10px;
   letter-spacing: -1px; }
 
-section#proj p a:hover {
+#proj p a:hover {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   color: white; }
 
-section#proj footer {
+#proj footer {
   position: relative;
   bottom: 30px;
   height: 150px;
@@ -292,12 +299,14 @@ section#proj footer {
   margin: 0px auto;
   z-index: 99999999; }
 
-section#resume {
+/* RESUME ------------------------------------------------ */
+
+#resume {
   width: 420px;
   margin: 30px auto 0px auto;
   position: relative; }
 
-section#resume h2 {
+#resume h2 {
   font-family: "BebasNeueRegular", sans-serif;
   font-size: 33px;
   color: #0d0d0d;
@@ -309,7 +318,7 @@ section#resume h2 {
   border-bottom: 3px solid #0d0d0d;
   text-align: justify; }
 
-section#resume h2 a {
+#resume h2 a {
   font-size: 46px;
   color: #0d0d0d;
   -webkit-transition: all 0.2s ease-in-out;
@@ -319,11 +328,11 @@ section#resume h2 a {
   font-weight: 400;
   text-align: center; }
 
-section#resume h2 a:hover {
+#resume h2 a:hover {
   color: #eaeaea;
   text-shadow: -2px -2px 0px black; }
 
-section#resume h3 {
+#resume h3 {
   display: block;
   font-family: "BebasNeueRegular", sans-serif;
   font-size: 22px;
@@ -335,7 +344,7 @@ section#resume h3 {
   margin-bottom: 5px;
   text-align: justify; }
 
-section#resume p {
+#resume p {
   margin: 0px auto 20px auto;
   font-size: 15px;
   color: #888;
@@ -345,10 +354,10 @@ section#resume p {
   line-height: 140%;
   text-align: justify; }
 
-section#resume ul {
+#resume ul {
   margin-left: 20px; }
 
-section#resume li {
+#resume li {
   font-size: 15px;
   list-style-type: square;
   color: #888;
@@ -359,7 +368,7 @@ section#resume li {
   padding: 4px 0px;
   line-height: 140%; }
 
-section#resume h2#emailme {
+#resume h2#emailme {
   margin-bottom: 50px;
   margin: 0px auto;
   text-align: right;
@@ -371,18 +380,26 @@ a.resume.top {
   position: relative;
   left: 20px; }
 
-section#resume footer {
+#resume footer {
   position: relative;
   height: 150px;
   width: 415px;
   margin: 0px auto;
   z-index: 99999999; }
 
+/* SELECTION STYLEZ ------------------------------------------------ */
+
 ::selection {
+  text-shadow: 0px 0px 0px #000;
+  color: #fff;
   background: black; }
 
+
 ::-moz-selection {
-  background: black; }
+  text-shadow: 0px 0px 0px #000;
+  color: #fff;
+  background: black;
+  }
 
 img::selection {
   background: transparent; }
