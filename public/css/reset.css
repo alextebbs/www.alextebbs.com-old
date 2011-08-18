@@ -59,5 +59,3 @@ html {
    font-size: 62.5%;
 }
 
-::-moz-selection{ text-shadow: none; }
-::selection { text-shadow: none; }
