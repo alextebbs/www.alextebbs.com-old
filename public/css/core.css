@@ -70,8 +70,8 @@ nav {
     width: 450px;
     margin: 0px auto;
     padding: 10px 0px;
-    border-top: 3px solid #0d0d0d;
-    border-bottom: 3px solid #0d0d0d; }
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000; }
 
 .ie6 nav,
 .ie7 nav {
@@ -91,7 +91,7 @@ nav ul li {
 nav ul li a {
     font-family: "BebasNeueRegular", sans-serif;
     font-size: 30px;
-    color: #0d0d0d;
+    color: #000;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     padding: 0px 14px 0px 0px;
@@ -136,7 +136,7 @@ nav ul li a.selected { color: #c8c8c8 }
 
 .simple img {
     -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-    border: 20px solid #0d0d0d;
+    border: 20px solid #000;
     width: 385px; }
 
 /* CONTACT ------------------------------------------------ */
@@ -205,7 +205,7 @@ a.top:hover { background: transparent url("../img/arr.png") 0px -350px no-repeat
     display: inline-block;
     font-family: "BebasNeueRegular", sans-serif;
     font-size: 46px;
-    color: #0d0d0d;
+    color: #000;
     text-transform: uppercase;
     text-shadow: rgba(255, 255, 255, 0.1) 0px 0px 3px;
     letter-spacing: 0px;
@@ -215,7 +215,7 @@ a.top:hover { background: transparent url("../img/arr.png") 0px -350px no-repeat
 #proj h2 a {
     font-family: "BebasNeueRegular", sans-serif;
     font-size: 46px;
-    color: #0d0d0d;
+    color: #000;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     text-transform: uppercase;
@@ -232,17 +232,17 @@ a.top:hover { background: transparent url("../img/arr.png") 0px -350px no-repeat
     width: 500px;
     margin-bottom: 20px;
     -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-    border: 7px solid #0d0d0d; }
+    border: 7px solid #000; }
 
 #proj.print img {
     width: 450px;
     margin-bottom: 60px;
-    border: 20px solid #0d0d0d; }
+    border: 20px solid #000; }
 
 #proj p {
     margin: 0px auto 20px auto;
     width: 410px;
-    border-bottom: 3px solid #0d0d0d;
+    border-bottom: 3px solid #000;
     padding: 0px 27px 15px 27px;
     font-size: 14px;
     color: #888;
@@ -292,19 +292,19 @@ a.top:hover { background: transparent url("../img/arr.png") 0px -350px no-repeat
 #resume h2 {
     font-family: "BebasNeueRegular", sans-serif;
     font-size: 33px;
-    color: #0d0d0d;
+    color: #000;
 	padding-bottom: 2px;
     text-transform: uppercase;
     text-shadow: rgba(255, 255, 255, 0.1) 0px 0px 3px;
     letter-spacing: 0px;
     font-weight: 400;
     margin: 15px 0px;
-    border-bottom: 3px solid #0d0d0d;
+    border-bottom: 3px solid #000;
     text-align: justify; }
 
 #resume h2 a {
     font-size: 46px;
-    color: #0d0d0d;
+    color: #000;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     text-shadow: rgba(255, 255, 255, 0.1) 0px 0px 3px;
@@ -320,11 +320,11 @@ a.top:hover { background: transparent url("../img/arr.png") 0px -350px no-repeat
     display: block;
     font-family: "BebasNeueRegular", sans-serif;
     font-size: 22px;
-    color: #0d0d0d;
+    color: #000;
     text-shadow: rgba(255, 255, 255, 0.1) 0px 0px 1px;
     text-transform: uppercase;
     font-weight: 400;
-    border-bottom: 2px solid #0d0d0d;
+    border-bottom: 2px solid #000;
     margin-bottom: 5px;
     text-align: justify; }
 
