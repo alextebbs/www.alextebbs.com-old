@@ -69,8 +69,9 @@ nav {
     margin-bottom: 40px;
     width: 450px;
     margin: 0px auto;
-    border-top: 2px solid #0d0d0d;
-    padding-top: 10px; }
+    padding: 10px 0px;
+    border-top: 3px solid #0d0d0d;
+    border-bottom: 3px solid #0d0d0d; }
 
 .ie6 nav,
 .ie7 nav {
@@ -101,7 +102,7 @@ nav ul#two {
     position: relative;
     left: 5px; }
 
-nav ul#two li a { font-size: 29px }
+nav ul#two li a { font-size: 29px; }
 
 nav ul li a:hover {
     text-shadow: 0px 0px 5px #000;
@@ -114,7 +115,7 @@ nav ul li a.selected { color: #c8c8c8 }
 /* ABOUT ------------------------------------------------ */
 
 .simple p {
-    font-size: 16px;
+    font-size: 14px;
     color: #888;
     text-shadow: #000 0px 0px 3px;
     font-family: sans-serif;
@@ -241,9 +242,9 @@ a.top:hover { background: transparent url("../img/arr.png") 0px -350px no-repeat
 #proj p {
     margin: 0px auto 20px auto;
     width: 410px;
-    border-bottom: 2px solid #0d0d0d;
+    border-bottom: 3px solid #0d0d0d;
     padding: 0px 27px 15px 27px;
-    font-size: 17px;
+    font-size: 14px;
     color: #888;
     text-decoration: none;
     text-shadow: #000 0px 0px 3px;
@@ -253,7 +254,6 @@ a.top:hover { background: transparent url("../img/arr.png") 0px -350px no-repeat
 
 #proj.print p {
     padding: 0px 15px 15px 15px;
-    border-bottom: 2px solid #0d0d0d;
     border-top: none;
     margin-bottom: 20px; }
 
@@ -293,6 +293,7 @@ a.top:hover { background: transparent url("../img/arr.png") 0px -350px no-repeat
     font-family: "BebasNeueRegular", sans-serif;
     font-size: 33px;
     color: #0d0d0d;
+	padding-bottom: 2px;
     text-transform: uppercase;
     text-shadow: rgba(255, 255, 255, 0.1) 0px 0px 3px;
     letter-spacing: 0px;
