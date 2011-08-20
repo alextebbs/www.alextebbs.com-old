@@ -40,6 +40,7 @@ $(document).ready(function()
             $('ul#two li a').removeClass('selected');
 		    $("section#about").hide();
 			$("section#contact").hide();
+			$("section#resume").hide();
 			$("section#proj").slideUp();
             $("#spacer").slideUp();
 			$("ul#two").slideToggle("slow");
