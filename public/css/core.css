@@ -114,6 +114,9 @@ nav ul li a.selected { color: #c8c8c8 }
 
 /* ABOUT ------------------------------------------------ */
 
+.simple {
+	display: none; }
+
 .simple p {
     font-size: 14px;
     color: #888;

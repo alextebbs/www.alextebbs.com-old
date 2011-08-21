@@ -6,8 +6,6 @@ $(document).ready(function()
         }
 
         function hideall() {
-		$("section#about").hide();
-		$("section#contact").hide();
 		$("section#design").hide();
 		$("section#develop").hide();		
 		$("section#proj").hide();
