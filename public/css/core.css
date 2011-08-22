@@ -316,8 +316,11 @@ a.top:hover { background: transparent url("../img/arr.png") 0px -350px no-repeat
     text-align: center; }
 
 #resume h2 a:hover {
-    color: #eaeaea;
-    text-shadow: -2px -2px 0px black; }
+    color: #fff;
+    text-shadow: -2px -2px 0px black,
+				 -3px -3px 0px black,
+				 -4px -4px 0px black;
+	border-bottom: 3px solid #fff; }
 
 #resume h3 {
     display: block;
@@ -340,6 +343,22 @@ a.top:hover { background: transparent url("../img/arr.png") 0px -350px no-repeat
     font-family: sans-serif;
     line-height: 140%;
     text-align: justify; }
+
+#resume p a,
+#resume li a {
+	color: #bbb;
+	text-shadow: rgba(0, 0, 0, 0.9) 0px 0px 3px, rgba(0, 0, 0, 0.9) 0px 0px 3px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+}
+
+#resume p a:hover,
+#resume li a:hover {
+	color: #fff;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+	text-decoration: underline;
+}
 
 #resume ul { margin-left: 20px }
 
