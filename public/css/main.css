@@ -1,8 +1,3 @@
-/* This is a gateway file for the real stylesheets.
-
-Your fonts go in the "fonts" directory and your @font-face declarations go in fonts.css.
-You could add styles here, but I would delete this comment and work from core.scss/core.css */
-
 @import url("reset.css");
 @import url("grid.css");
 @import url("ie.css");
