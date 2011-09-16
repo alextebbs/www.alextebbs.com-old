@@ -7,3 +7,4 @@ This is the source code for my personal portfolio site. The site runs on Stacey 
 - Add Collista
 - Add descriptions to pieces in design section
 - make clean urls work
+- add resume .pdf and .doc
